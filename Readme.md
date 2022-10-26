@@ -3,7 +3,7 @@ Submodular Function Maximization".
 
 ## Get started:
 1. System requirement: Pytorch 1.1.0, Python 3.7
-2. Download the datasets from the Google drive link.
+2. Download the datasets from the Google drive link and place all datasets under the "datasets" folder.
 
 ## Generic Video Summarization:
 ### Use OVP dataset
