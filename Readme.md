@@ -6,13 +6,13 @@ Submodular Function Maximization".
 2. Download the datasets from the Google drive link.
 
 ## Generic Video Summarization:
-1. Use OVP dataset
+### Use OVP dataset
 1) GoogleNet features
 python QVSmain.py -d datasets/qvs_dataset_ovp_google_pool5.h5 -s datasets/ovpsplitsfull.json -m OVP --mode 2
 2) Histgram color features
 python QVSmain.py -d datasets/qvs_dataset_ovp_color.h5 -s datasets/ovpsplitscolor.json -m OVP --mode 2 --ftype color
 
-2. Use Youtube dataset
+### Use Youtube dataset
 1) GoogleNet features
 python QVSmain.py -d datasets/qvs_dataset_youtube_google_pool5.h5 -s datasets/youtubesplitsfull.json -m Youtube --mode 2
 2) Histgram color features
