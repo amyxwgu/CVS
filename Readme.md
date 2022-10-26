@@ -1,3 +1,5 @@
+This is the implementation codes for paper "Conditional Video Summarization via Non-monotone
+Submodular Function Maximization".
 Generic Video Summarization:
 1. Use OVP dataset
 1) GoogleNet features
