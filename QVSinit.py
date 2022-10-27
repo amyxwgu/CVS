@@ -29,7 +29,7 @@ def get_parser() -> argparse.ArgumentParser:
     parser.add_argument('--weight-decay', type=float, default=1e-05, help="weight decay rate (default: 1e-05)")
     parser.add_argument('--save-dir', type=str, default='QVSmodels/',
                         help="path to save output (default: 'QVSmodels/')")
-    parser.add_argument('--verbose', action='store_false', help="whether to show detailed test results")
+    parser.add_argument('--verbose', action='store_true', help="whether to show detailed test results")
     parser.add_argument('--save-results', action='store_false', help="whether to save output results")
     parser.add_argument('-m', '--metric', type=str, required=True, choices=['OVP', 'Youtube'],
                         help="evaluation metric ['OVP', 'Youtube']")
