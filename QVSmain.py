@@ -1,6 +1,6 @@
-from QVSlayers_gh import *
-from QVSinit_gh import *
-from QVSutils_gh import *
+from QVSlayers import *
+from QVSinit import *
+from QVSutils import *
 
 import torch
 import torch.nn as nn

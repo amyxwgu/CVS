@@ -3,7 +3,7 @@ import torch.nn as nn
 from torch.nn.parameter import Parameter
 import numpy as np
 import math
-from QVSinit_gh import *
+from QVSinit import *
 
 argslayer = get_arguments()
 if argslayer.ftype == 'googlenet':
