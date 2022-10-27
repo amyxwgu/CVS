@@ -1,4 +1,4 @@
-This is the implementation code for the paper "Conditional Video Summarization via Non-monotone
+This is the implementation code of the paper "Conditional Video Summarization via Non-monotone
 Submodular Function Maximization".
 
 ## Get started:
