@@ -27,3 +27,4 @@ python QVSmain.py -d datasets/qvs_dataset_youtube_google_pool5.h5 -s datasets/yo
 
 ## More qualitative results for conditional video summarization:
 experiment/OVP21.png
+https://github.com/amyxwgu/CVS/blob/main/experiment/OVP21.png
