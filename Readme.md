@@ -26,5 +26,14 @@ python QVSmain.py -d datasets/qvs_dataset_youtube_google_pool5.h5 -s datasets/yo
 python QVSmain.py -d datasets/qvs_dataset_youtube_google_pool5.h5 -s datasets/youtubesplitsv73.json -m Youtube --mode 2 --cond --query 9
 
 ## More qualitative results for conditional video summarization:
-OVP21: The query frame involves water. The summarized frames are all about water. Besides the faucet, the selected images contain diverse forms of water.
+Video OVP21: The query frame involves water. The summarized frames are all about water. Besides the faucet, the selected images contain diverse forms of water.
 ![OVP21](https://github.com/amyxwgu/CVS/blob/main/experiment/OVP21.png)
+
+Video OVP39: The summary consists of different situations of the person in the query. For example, with captions, eyes closed, smiling, and so on.
+![OVP39](https://github.com/amyxwgu/CVS/blob/main/experiment/OVP39.png)
+
+Video YouTube101: Two conditional summarizations focus on the sea crossing incident and news interview, respectively.
+![YouTube101](https://github.com/amyxwgu/CVS/blob/main/experiment/YouTube101.png)
+
+Video OVP61: The first summary focus on the lecturer, and the second focus on the audience. Both summaries contain frames that are closely related to the query and are distinct from each other.
+![OVP61](https://github.com/amyxwgu/CVS/blob/main/experiment/OVP61.png)
