@@ -24,3 +24,6 @@ Using Youtube v73 as an example
 python QVSmain.py -d datasets/qvs_dataset_youtube_google_pool5.h5 -s datasets/youtubesplitsv73.json -m Youtube --mode 2 --cond --query 2  
 2) Focus on the stands  
 python QVSmain.py -d datasets/qvs_dataset_youtube_google_pool5.h5 -s datasets/youtubesplitsv73.json -m Youtube --mode 2 --cond --query 9
+
+## More qualitative results for conditional video summarization:
+experiment/OVP21.png
