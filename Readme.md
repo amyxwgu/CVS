@@ -26,5 +26,5 @@ python QVSmain.py -d datasets/qvs_dataset_youtube_google_pool5.h5 -s datasets/yo
 python QVSmain.py -d datasets/qvs_dataset_youtube_google_pool5.h5 -s datasets/youtubesplitsv73.json -m Youtube --mode 2 --cond --query 9
 
 ## More qualitative results for conditional video summarization:
-experiment/OVP21.png
+OVP21: The query frame involves water. The summarized frames are all about water. Besides the faucet, the selected images contain diverse forms of water.
 ![OVP21](https://github.com/amyxwgu/CVS/blob/main/experiment/OVP21.png)
